@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9CDFC8C02A16A9FD007AED2F /* SwiftUIToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDFC8BF2A16A9FD007AED2F /* SwiftUIToDoListApp.swift */; };
-		9CDFC8C22A16A9FD007AED2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDFC8C12A16A9FD007AED2F /* ContentView.swift */; };
+		9CDFC8C22A16A9FD007AED2F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDFC8C12A16A9FD007AED2F /* MainView.swift */; };
 		9CDFC8C42A16A9FE007AED2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDFC8C32A16A9FE007AED2F /* Assets.xcassets */; };
 		9CDFC8C72A16A9FE007AED2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDFC8C62A16A9FE007AED2F /* Preview Assets.xcassets */; };
 		9CDFC8CF2A16B047007AED2F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9CDFC8CE2A16B047007AED2F /* FirebaseAuth */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		9CDFC8BC2A16A9FD007AED2F /* SwiftUIToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDFC8BF2A16A9FD007AED2F /* SwiftUIToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoListApp.swift; sourceTree = "<group>"; };
-		9CDFC8C12A16A9FD007AED2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9CDFC8C12A16A9FD007AED2F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9CDFC8C32A16A9FE007AED2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CDFC8C62A16A9FE007AED2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9CDFC8D42A16B057007AED2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -59,10 +59,8 @@
 		9CDFC8BE2A16A9FD007AED2F /* SwiftUIToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				9CDFC8D42A16B057007AED2F /* GoogleService-Info.plist */,
-				9CDFC8BF2A16A9FD007AED2F /* SwiftUIToDoListApp.swift */,
-				9CDFC8C12A16A9FD007AED2F /* ContentView.swift */,
-				9CDFC8C32A16A9FE007AED2F /* Assets.xcassets */,
+				9CDFC8DA2A17485E007AED2F /* Others */,
+				9CDFC8C12A16A9FD007AED2F /* MainView.swift */,
 				9CDFC8C52A16A9FE007AED2F /* Preview Content */,
 			);
 			path = SwiftUIToDoList;
@@ -74,6 +72,16 @@
 				9CDFC8C62A16A9FE007AED2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9CDFC8DA2A17485E007AED2F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9CDFC8D42A16B057007AED2F /* GoogleService-Info.plist */,
+				9CDFC8BF2A16A9FD007AED2F /* SwiftUIToDoListApp.swift */,
+				9CDFC8C32A16A9FE007AED2F /* Assets.xcassets */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDFC8C22A16A9FD007AED2F /* ContentView.swift in Sources */,
+				9CDFC8C22A16A9FD007AED2F /* MainView.swift in Sources */,
 				9CDFC8C02A16A9FD007AED2F /* SwiftUIToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
